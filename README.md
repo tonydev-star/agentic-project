@@ -1,32 +1,43 @@
+
 # Customer Feedback Automation Agent
 
 ## Overview
 
-The **Customer Feedback Automation Agent** is a multi-agent system that **automatically collects, analyzes, responds to, and logs customer feedback**. This project demonstrates **workflow automation** with **multi-agent reasoning**, combining backend logic, frontend visualization, and optional AI-powered sentiment analysis.
+The **Customer Feedback Automation Agent** is a **multi-agent system** that automatically **collects, analyzes, responds to, and logs customer feedback**. This project demonstrates **real-world workflow automation** with **multi-agent reasoning**, combining **backend logic, frontend visualization, CI/CD pipelines, and IDE-optimized development**.
 
 ---
 
 ## Features
 
-* **Scraper Agent:** Collects feedback from multiple sources (Twitter, Yelp, Google Reviews — mock data for demo).
+* **Scraper Agent:** Collects feedback from multiple sources (Twitter, Yelp, Google Reviews — mock data).
 * **Analyzer Agent:** Performs sentiment analysis (Positive / Negative / Neutral).
 * **Responder Agent:** Generates automated responses based on sentiment.
 * **Logger Agent:** Monitors activity and logs metrics.
 * **Real-Time Dashboard:** Displays feedback, sentiment breakdown, and responses.
-* Optional AI integration for smarter sentiment analysis.
+* Optional **AI integration** for smarter sentiment analysis.
 
 ---
 
-## Tech Stack
+## Tech Stack & Tools
 
-| Layer       | Technology                       |
-| ----------- | -------------------------------- |
-| Frontend    | React.js                         |
-| Backend     | Kotlin + Spring Boot             |
-| Database    | MySQL                            |
-| Agents      | Kotlin classes / LangChain-ready |
-| Automation  | Droid CLI compatible             |
-| Optional AI | OpenAI API                       |
+| Layer / Task    | Technology / Tool                |
+| --------------- | -------------------------------- |
+| Frontend        | React.js                         |
+| Backend         | Kotlin + Spring Boot             |
+| Database        | MySQL                            |
+| Agents          | Kotlin classes / LangChain-ready |
+| Automation      | Droid CLI                        |
+| CI/CD           | Jenkins                          |
+| Development IDE | Windsurf, Cursor                 |
+| OS              | Ubuntu Virtual Machine           |
+| Optional AI     | OpenAI API                       |
+
+**Notes:**
+
+* **Windsurf & Cursor**: Used for **IDE-assisted coding, refactoring, and agent logic planning**.
+* **Droid CLI**: Used for **running and orchestrating backend workflows**.
+* **Jenkins**: Used for **pipeline automation and deployment testing**.
+* **Ubuntu VM**: Provides a stable Linux environment for backend & agents.
 
 ---
 
@@ -50,7 +61,7 @@ CREATE TABLE feedback (
 EXIT;
 ```
 
-### 2. Backend
+### 2. Backend (Kotlin + Spring Boot)
 
 ```bash
 cd backend/CustomerFeedbackBackend
@@ -59,7 +70,7 @@ chmod +x gradlew
 ./gradlew bootRun
 ```
 
-### 3. Frontend
+### 3. Frontend (React)
 
 ```bash
 cd frontend
@@ -77,7 +88,7 @@ export OPENAI_API_KEY="your_openai_api_key"
 
 ## Usage
 
-1. Open your browser at `http://localhost:3000`.
+1. Open browser at `http://localhost:3000`.
 2. Submit feedback via the dashboard.
 3. Agents automatically analyze sentiment, generate responses, and log data.
 4. Monitor real-time charts and statistics.
@@ -86,10 +97,11 @@ export OPENAI_API_KEY="your_openai_api_key"
 
 ## Key Benefits
 
-* Automates customer feedback management
+* **Full automation** of customer feedback workflows
 * Demonstrates **multi-agent reasoning**
-* Provides real-time monitoring and analytics
-* Extensible with AI or additional sources
+* Supports **real-time monitoring & analytics**
+* Uses **industry-standard IDEs and tools**
+* Extensible with AI and CI/CD pipelines
 
 ---
 
@@ -103,8 +115,6 @@ export OPENAI_API_KEY="your_openai_api_key"
 
 ## Author
 
-**Antony Wanjiru** – Developed as a demonstration of **agentic workflow automation and full-stack development**.
+**Antony Wanjiru** – Demonstrates **agentic workflow automation**, **full-stack development**, and **advanced tool usage** (Windsurf, Cursor, Droid CLI, Jenkins, Ubuntu VM).
 
 ---
-
-
