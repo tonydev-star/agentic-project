@@ -1,0 +1,6 @@
+@echo off
+echo Starting Customer Feedback Automation Backend...
+cd backend
+echo Building and running Spring Boot application...
+gradlew bootRun
+pause
