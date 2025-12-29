@@ -19,7 +19,7 @@ A multi-agent system for automatically collecting, analyzing, and responding to 
 ### Technology Stack
 - **Backend**: Kotlin, Spring Boot, JPA, MySQL
 - **Frontend**: React, Tailwind CSS, Recharts, Axios
-- **AI Integration**: LangChain4j with OpenAI GPT (optional)
+- **AI Integration**: LangChain4j with OpenAI GPT 
 - **Database**: MySQL
 
 ## Features
@@ -159,3 +159,4 @@ The scraper agents currently use mock data for demonstration purposes. In produc
 ## License
 
 This project is for educational and demonstration purposes.
+
